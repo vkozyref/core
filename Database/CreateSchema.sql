@@ -6,6 +6,7 @@ BEGIN
   (
     student_id IDENTITY(1,1) INT NOT NULL,
     name VARCHAR(128) NOT NULL,
+	user_email VARCHAR(128) NOT NULL,
     CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED 
 		(
 			[student_id] ASC
